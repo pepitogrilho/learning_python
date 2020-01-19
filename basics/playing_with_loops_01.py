@@ -11,17 +11,28 @@ while i <=10:
       break
    else :
       print(i)
-
-
 print("Finished!")
 
 
+
 #............................WHILE............................
+print("\n")
 words = ["hello", "world", "spam", "eggs"]
 counter = 0
 max_index = len(words) - 1
-
+output=""
 while counter <= max_index:
-   word = words[counter]
-   print(word + "!")
+   output += words[counter]+"@"
    counter = counter + 1
+   
+print(output)
+
+
+#............................FOR............................
+print("\n")
+output=""
+words = ["hello", "world", "spam", "eggs"]
+for word in words:
+   output += word+"@"
+   
+print(output)
