@@ -1,27 +1,18 @@
 
 
-#list/array of integers.............
-ints_01=[0, 1, 2, 3]
-print("ints_01:")
-print(ints_01)
+#Add and Concatenate ................
+ints_01=[0, 1, 2, 3]; print("ints_01:"); print(ints_01)
+ints_02=[3, 2, 1, 0]; print("ints_02:"); print(ints_02)
 
-ints_02=[3, 2, 1, 0]
-print("ints_02:")
-print(ints_02)
-
-print("ints_01+ints_02:")
-print(ints_01+ints_02)
-
-print("ints_01 * 3")
-print(ints_01 * 3)
-
+print("ints_01+ints_02:"); print(ints_01+ints_02)
+print("ints_01 * 3");      print(ints_01 * 3)
 #....................................
 print("\n")
 
 
-#list/array of strings...............
+#Check items in the list ...................................
 words_01=["spam", "egg", "spam", "sausage"]
-print("words_01=[\"spam\", \"egg\", \"spam\", \"sausage\"]")
+print("list of works:",end=''); print(words_01)
 print("Is \"spam\" in words?:" + str("spam" in words_01))
 print("Is NOT \"SPAM\" in words?:" + str("SPAM" not in words_01))
 
