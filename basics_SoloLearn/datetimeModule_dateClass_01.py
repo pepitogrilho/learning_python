@@ -1,5 +1,5 @@
 #Module:datetime / Class:datetime
-#Classes: datetime, date, time
+#Classes: datetime, date, time, timedelta
 from datetime import date
 
 d=date.today()
