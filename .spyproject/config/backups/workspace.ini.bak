@@ -1,0 +1,10 @@
+[workspace]
+restore_data_on_startup = True
+save_data_on_exit = True
+save_history = True
+save_non_project_files = False
+
+[main]
+version = 0.2.0
+recent_files = ['..\\..\\Users\\RICARDO\\.spyder-py3\\temp.py', 'xUdemy_xlwings\\S4_MontecarloSimulation_Part_1\\S4_32_Simple_MonteCarlo_Simulation_01.py', 'xSoloLearn_basics\\lists_dicts_tuples_sets\\lists_01.py', 'xSoloLearn_basics\\lists_dicts_tuples_sets\\lists_02.py']
+
