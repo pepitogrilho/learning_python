@@ -3,15 +3,17 @@
 This is ideal when you need to extend/change functions that you don't want to modify
 """
 
-def decor(func):
+def pretty(func):
   def wrap():
     print("............................")
     func() 
     print("............................")
   return wrap
 
-def hello():
+def ordinary():
   print("hello")
+
+ordinary()
   
-decorated=decor(hello)
-decorated()
+pretty=pretty(ordinary)
+pretty()

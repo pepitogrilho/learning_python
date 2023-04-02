@@ -2,7 +2,7 @@
 
 #When a file is opened in write mode, the file's content is DELETED!
 
-file_path = "C:\\GitHub\\learning_python\\files\\files_02_text_file_example.txt" 
+file_path = "C:\\GitHub\\learning_python\\pepe.txt" 
 
 #re-write content
 f_write = open(file_path, "w")
