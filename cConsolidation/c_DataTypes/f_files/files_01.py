@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-path = "C:\\GitHub\\learning_python\\files\\files_01_text_file_example.txt"
+path = "files_01_text_file_example.txt"
 
 #Put text into a STRING
 f = open(path, "r")
@@ -27,4 +27,3 @@ text = f.read()
 for char in text:
     print(char)
 f.close()
-
