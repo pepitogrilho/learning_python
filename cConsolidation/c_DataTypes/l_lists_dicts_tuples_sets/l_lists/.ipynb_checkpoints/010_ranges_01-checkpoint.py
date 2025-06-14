@@ -6,14 +6,7 @@ r01= range(1); print(r01)
 r02= range(2); print(r02)
 r03= range(3); print(r03)
 r04= range(4); print(r04)
-#loop ranges
-for i in r00:
-    print(i,end="")
-print()
-for i in r01: print(i,end=""): print()
-[print(i) for i in r02]: print()
-[print(i) for i in r03]: print()
-    
+
 #list from range
 l00=list(r00); print(l00, end=''); print(type(l00))
 l01=list(r01); print(l01)
